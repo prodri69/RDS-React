@@ -1,0 +1,35 @@
+/* Navbar.css - Full Matrix Theme */
+body {
+    background-color: black; /* Full black background */
+    color: #00ff00; /* Matrix green text */
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  nav {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 2px solid #00ff00; /* Green glow border */
+  }
+  
+  button {
+    background-color: black;
+    border: 2px solid #00ff00; /* Neon Green */
+    color: #00ff00;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #00ff00;
+  }
+  
+  button:hover {
+    background-color: #00ff00;
+    color: black;
+    box-shadow: 0 0 15px #00ff00, 0 0 30px #00ff00;
+    transform: scale(1.1);
+  }

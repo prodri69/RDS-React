@@ -12,7 +12,7 @@ async function handleSubmit(e){
     e.preventDefault();
    try{
      const response = await axios.post("http://localhost:3005/api/login", { username, password});
-     if(response === 200){
+     if(response.status === 200){
         setUserStatus("success")
      }
      else {
